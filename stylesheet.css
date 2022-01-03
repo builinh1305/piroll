@@ -1,0 +1,883 @@
+/*nav bar*/
+.nav {
+    height: 100px;
+    background:  #ffffff;;
+}
+.nav ul {
+    float: right;
+    margin-right: 25px;
+}
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+}
+.nav a {
+    text-decoration: none;
+    color:#191919;
+}
+.nav ul li a {
+    position: relative;
+    font-size: 12px;
+    padding: 5px 0;
+    text-transform: uppercase;
+}
+.nav ul li a:hover{
+    width: 100%;
+    background: #f0e159;
+    font-size: 20px;
+    border-radius: 10%;
+}
+/*
+.nav ul li a::before {
+    position: absolute;
+    content: ' ';
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #10c9c3;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .4s linear;
+}
+.nav ul li a:hover:before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+*/
+label #btn{
+    color: black;
+    font-size: 30px;
+    float: right;
+    line-height: 108px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check {
+    display: none;
+}
+.nav a:hover {
+    font-size: 18px;
+ }
+.logo {
+    float: left;
+    padding: 35px;
+}
+.color {
+    color: #10c9c3 !important;
+}
+/*about section*/
+section {
+    height: 300px;
+    background-color: #f6f6f6;
+    width: 100%;
+}
+section {
+    text-align: center
+}
+.title{
+    padding: 5%;
+}
+@font-face {
+    font-family: abc;
+    src: url(NunitoSans-Regular.ttf);
+}
+.title {
+    font-family: abc;
+}
+.title h1 {
+    color: #171717;
+    font-size: 38px;
+}
+.title p {
+    color: #787878;
+    font-size: 18px;
+}
+@font-face {
+    font-family: def;
+    src: url(FontsFree-Net-Montserrat-Medium.ttf);
+}
+.color, .banner {
+    font-family: def;
+}
+#images {
+    overflow: auto;
+}
+.img img {
+    float: left;
+    width: 25%;
+    height: 250px;
+}
+
+/*Contact */
+#contact {
+    background-color: #f5f5f5;
+    overflow: auto;
+    padding: 5%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.contact {
+    float: left;
+    width: 50%;
+}
+.form {
+    float: left;
+    width: 50%;
+}
+.contacthome {
+    padding: 6% 8% 6% 8%;
+    overflow: auto;
+}
+.contacthome p {
+    color: #787878;
+    font-size: 15px;
+}
+.text1 {
+    color: #787878;
+    width: 40%;
+    float: left;
+}
+.text2 {
+    width: 25%;
+    float: left;
+}
+.text3 {
+    width: 35%;
+    float: left;
+}
+
+/*footer */
+footer {
+    background-color: #141414;
+    height: 250px;
+}
+.inf {
+    float: left;
+}
+.inf ul li {
+    color: #787878;
+    font-family: abc;
+    font-size: 15px;
+   
+}
+.inf ul {
+    list-style: none;
+    padding-top: 0px;
+}
+.text1 h3 {
+        font-family: def;
+        color: #ffffff;
+        font-size: 18px;
+}
+.contact p {
+    font-family: abc;
+}
+.banner {
+    background-image: url(img/unnamed.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5% 10%;
+}
+.banner h3 {
+        font-family: def;
+        color: #ffffff;
+        font-size: 38px;
+}
+.banner p {
+    font-family: abc;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 0;
+}
+#about {
+    background-color: #10c9c3;
+    height: 200px;
+    color: #ffffff;
+    overflow: auto;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+.icon {
+    padding-left: 18%;
+    padding-top: 5.5%;
+}
+.complete {
+    width: 25%;
+    float: left;
+    position: relative;
+    z-index: 10;
+}
+
+.fa-briefcase, .fa-star, .fa-heart, .fa-clock {
+    position: absolute;
+    left: -40px;
+    top: 10px;
+    font-size: 30px;
+}
+#aboutimages {
+    background-color: #f5f5f5;
+    height: 550px;
+    overflow: hidden;
+}
+.aboutimg {
+    float: left;
+    width: 50%;
+}
+.aboutme {
+    float: left;
+    width: 50%;
+    padding: 10% 8%;
+    box-sizing: border-box;
+}
+.text h3 {
+    font-family: def;
+    font-size: 30px;}
+.text p {
+    font-family: abc;
+    font-size: 16px;
+}
+#need {
+    background-color: #ffffff;
+    text-align: center;
+    height: 400px;
+    padding: 6.5%;
+    box-sizing: border-box;
+}
+.button {
+    width: 180px;
+    height: 55px;
+    background-color:#10c9c3;
+    border: none;
+    font-family: def;
+    font-size: 12px;
+    color: #ffffff;
+}
+#need h3 {
+    font-size: def;
+    font-size: 30px;
+    color: #1d1d1d;
+}
+#need p {
+    font-family: abc;
+    font-size: 16px;
+    color: #787878;
+}
+
+.contact h3, .pd h3 {
+    margin-top: 0px;
+    font-family: def;
+    font-size: 30px;
+    color:  #1d1d1d;
+}
+.contact p, span, .pd p {
+    line-height: 35px;
+    font-family: abc;
+    font-size: 16px;
+    color: #787878;
+}
+.contact p, .pd p {
+    line-height: 25px;
+}
+.form {
+    float: left;
+    width: 50%;
+}
+.name {
+    height: 25px;
+    width: 48%;
+}
+.mail {
+    height: 25px;
+    width: 48%;
+}
+.yourtitle {
+    height: 25px;
+    width: 98%;
+}
+.mg {
+    margin-bottom: 20px;
+}
+.textarea {
+    width: 98%;
+    height: 170px;
+}
+.form {
+    margin-bottom: 60px;
+}
+iframe {
+    width: 100%;
+    height: 450px;
+}
+
+/*Project*/
+#project {
+    overflow: auto;
+    background-color: #f6f6f6;
+    box-sizing: border-box;
+    width: 100%;
+}
+.projecttext {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+.projectimg {
+    float: left;
+    width: 50%;
+}
+.pd {
+    padding: 10% 7%;
+}
+#projectmenu {
+    background-color: #ffffff;
+    height: 100px;
+    overflow: auto;
+}
+.previous {
+    float: left;
+    width: 48%;
+}
+.prjicon {
+    float: left;
+    width: 4%;
+    position: relative;
+}
+.next {
+    float: left;
+    width: 48%;
+}
+.next p{
+    float: right;
+}
+.tong {
+    padding:2% 5%;
+}
+.navbar2 {
+    position: absolute;
+    top: 15px;
+    font-size: 20px;
+}
+.pd h3 {
+    font-size: 30px;
+    font-family: def;
+}
+.pd p {
+    font-size: 16px;
+    font-family: abc;
+    line-height: 25px;
+}
+/*Onepage*/
+.onepage {
+    height: 670px;
+    background-image: url(img/onepage-pic2.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+}
+.onep {
+    position: absolute;
+    top: 150px;
+    right: 150px;
+    line-height: 25px;
+}
+.about {
+    height: 300px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+.macbook {
+    background-image: url(img/onepage-pic3.jpg);
+    height: 670px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.macbook {
+    position: relative;
+}
+.macbooktext {
+    position: absolute;
+    top: 200px;
+    right: 100px;
+}
+.macbooktext p {
+    line-height: 25px;
+    font-family: def;
+    color: #787878;
+    font-size: 18px;
+}
+.macbooktext h3 {
+    font-size: 38px;
+    font-family: abc;
+    color: #1d1d1d;
+}
+.about p {
+    font-size: 16px;
+    font-family: def;
+    color: #787878;
+}
+.about h3 {
+    font-size: 30px;
+    font-family: abc;
+    color: #1d1d1d;
+}
+.skills {
+    height: 570px;
+    overflow: auto;
+    box-sizing: border-box;
+}
+.profess, .skillimg {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+.profess {
+    padding-left: 60px;
+    padding-top: 150px;
+    line-height: 30px;
+}
+.skillimg img {
+    width: 100%;
+}
+.skillimg {
+    height: 570px;
+}
+#file {
+    width: 70%;
+    height: 6px;
+}
+.loadding {
+    height: 100px;
+    width: 100%;
+    background-color: #f5f5f5;
+    border: none;
+}
+
+.videoourwork {
+    box-sizing: border-box;
+    padding-left: 4%;
+    padding-top: 5%;
+    height: 860px;
+}
+.ourwork {
+    text-align: center;
+}
+.ourwork h3 {
+    font-size: 30px;
+    font-family: abc;
+    color: #1d1d1d;
+}
+.ourwork p {
+    font-size: 16px;
+    font-family: def;
+    color: #787878;
+}
+.design {
+    overflow: auto;
+    text-align: center;
+    background-color: #f5f5f5;
+    height: 370px;
+    box-sizing: border-box;
+}
+.group {
+    margin-top: 3%;
+    text-align: center;
+}
+.a {
+    float: left;
+    width: 25%;
+}
+.b .fas, .b .far {
+    font-size: 30px;
+}
+.b {
+   margin-bottom: 0;
+   margin-top: 20px;
+}
+.chu h4 {
+    margin-bottom: 0;
+}
+.chu p {
+    margin-top: 0;
+}
+ .start {
+     background-color: #10c9c3;
+     height: 350px;
+     box-sizing: border-box;
+ }
+ .starttext {
+     padding: 7%;
+     text-align: center;
+     line-height: 30px;
+     color: white;
+ }
+ .stick {
+     overflow: auto;
+     height: 200px;
+ }
+ .stickgr {
+     float: left;
+     width: 20%;
+     text-align: center;
+     padding-top: 5%;
+ }
+ .noonepage {
+     text-align: center;
+     padding-left: 23%;
+     padding-top: 5%;
+ }
+ .formonepage {
+    background-color: #f5f5f5;
+    height: 500px;
+ }
+ input {
+     border: none;
+ }
+ textarea {
+     border: none;
+ }
+  
+ .button:hover {
+     background: springgreen;
+ }
+ 
+ @media only screen and (max-width: 920px) {
+     /*navbar*/
+    .nav ul li a {
+        font-size: 15px;
+    }
+    label #btn {
+        display: block;
+    }
+    .nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: wheat;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        padding: 0;
+        transition: all .5s;
+        z-index: 20;
+    }
+    .nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+    #check:checked ~ label #btn {
+        left: 0;
+    }
+    .img img {
+        width: 48%;
+        padding: 1%;
+    }
+    /*footer*/
+    footer {
+        height: 200px;
+    }
+    .pdmg {
+        padding: 0;
+        margin: 0;
+    }
+
+
+    /*Home*/
+    section {
+        height: 250px;
+    }
+
+
+    /*Contact*/
+    .contact {
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .form {
+        width: 100%;
+    }
+   .contactimg {
+    width: 96%;
+    padding: 2%;
+   }
+   .button {
+    margin-left: 35%;
+    }   
+    .contact {
+        margin-left: 30%;
+    }
+
+    /*Project*/
+    .projecttext {
+        width: 96%;
+        padding: 2%;
+        text-align: center;
+    }
+    .projectimg img {
+        display: none;
+    }
+    /*About*/
+    .banner {
+        padding: 8% 10%;
+    }
+    .icon {
+        padding-top: 8%;
+    }
+    .aboutimg {
+        width: 100%;
+    }
+    
+    #need {
+        height: 350px;
+        text-align: center;
+    }
+    #need button {
+        margin-left: 2% ;
+    }
+    /*Onepage*/
+    .skills {
+        height: 350px;
+    }
+    .profess{
+        text-align: center;
+        width: 96%;
+        padding: 2%;
+    }
+    .skillimg {
+        display: none;
+    }
+    .videoourwork {
+        height: 580px;
+    }
+    .cat img {
+        width: 100%;
+    }
+    .design {
+        height: 300px;
+    }
+    .group {
+        margin-top: 5%;
+    }
+    .chu p {
+        display: none;
+    }
+    .start {
+        height: 300px;
+    }
+    .noonepage {
+        padding-left: 0;
+    }
+    .noonepage .button {
+        margin-left: 2%;
+    }
+    .formonepage {
+        height: 420px;
+    }
+    .macbook button {
+        margin-left: 23%;
+    }
+}
+@media only screen and (max-width: 678px) {
+    /*navbar*/
+    .img img {
+        width: 98%;
+        padding: 1%;
+    }
+    .nav ul li a {
+        font-size: 15px;
+        color: rgb(85, 79, 79);
+    }
+    label #btn {
+        display: block;
+    }
+    .nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(231, 143, 131);
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        padding: 0;
+        transition: all .5s;
+        z-index: 20;
+    }
+    .nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+    #check:checked ~ label #btn {
+        display: block;
+    }
+    /*footer*/
+    footer {
+        height: 380px;
+    }
+    footer .text1, footer .text2, footer .text3 {
+        width: 96%;
+        padding: 2%;
+    }
+    .contacthome {
+        padding-top: 0.5%;
+    }
+   .text3 ul {
+       width: 32%;
+   }
+   .ul1, .ul2 {
+       margin: 2%;
+   }
+   .pdmg {
+    padding: 0;
+    margin: 0;
+    }
+
+    /*Home*/
+    section {
+        height: 240px;
+    }
+   /*Contact*/
+   .contactinfo {
+    width: 96%;
+    padding: 2%;
+    }
+    .form {
+    width: 96%;
+    padding: 2%;
+    }
+    .contact {
+       text-align: center;
+    }
+    .button {
+    margin-left: 28%;
+    }   
+    .projecttext {
+        width: 96%;
+        padding: 2%;
+        text-align: center;
+    }
+    .projectimg img {
+        display: none;
+    }
+     /*About*/
+     .banner {
+        height: 250px;
+        padding: 0% 10%;
+        background-image: none;
+    }
+    .banner h3, .banner p {
+        color: black;
+    }
+    .icon {
+        padding-top: 7%;
+        padding-left: 25%;
+    }
+    .complete {
+        width: 48%;
+        padding: 1%;
+    }
+    #aboutimages {
+        height: 400px;
+    }
+    .aboutimg {
+        display: none;
+    }
+    .aboutme {
+        width: 100%;
+        text-align: center;
+        padding-top: 4%;
+    }
+    #need {
+        height: 310px;
+        text-align: center;
+    }
+    #need button {
+        margin-left: 5% ;
+    }
+
+    /*Onepage*/
+    .skills {
+        height: 350px;
+    }
+    .profess{
+        margin-top: 10%;
+    }
+    .ourwork {
+        height: 150px;
+    }
+    .videoourwork {
+        height: 430px;
+    }
+    .cat img {
+        width: 100%;
+    }
+    .a {
+        float: left;
+        width: 50%;
+    }
+    .none {
+        display: none;
+    }
+    .design {
+        height: 250px;
+    }
+    .group {
+        margin-top: 7%;
+    }
+    .start {
+        height: 270px;
+    }
+    .stick {
+        overflow: auto;
+        height: 130px;
+    }
+    .stickgr img {
+        width: 80%;
+        height: 70px;
+    }
+    .noonepage .button {
+        margin-left: 2%;
+    }
+    .formonepage {
+        height: 400px;
+    }
+    .noonepage {
+        margin-top: 4%;
+    }
+    .fa-briefcase, .fa-star, .fa-heart, .fa-clock {
+        font-size: 20px;
+        left: -32px;
+        top: 20px;
+    }
+    .macbook {
+        background-image: none;
+        height: 500px;
+    }
+    .macbooktext {
+        position: absolute;
+        top: 200px;
+        right: 10px;
+        left: 15px;
+    }
+    .macbook button {
+        margin-left: 30%;
+    }
+}
